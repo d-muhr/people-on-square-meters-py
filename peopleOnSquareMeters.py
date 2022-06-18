@@ -54,16 +54,23 @@ sun_surface_size = 6090000000000
 
 while True:
     # User makes 3 decisions
-    print("Please decide on an entity that you want to be represented (e.g. type 'person').")
+    print(
+        "Please decide on an entity that you want to be represented",
+        "(e.g. type 'person').")
     entity = pyip.inputStr(prompt='>>> ')
 
-    print("Please decide how many entities you want to be represented (e.g. type '1000000' for 1 million).")
+    print(
+        "Please decide how many entities you want to be represented",
+        "(e.g. type '1000000' for 1 million).")
     entity_amount = pyip.inputInt(
         prompt='>>> ', min=10000, max=1000000000000000)
 
-    '''
-    # ((( OPTIONAL-TODO: Let user decide if user's input is in m² or km². However then the  following 2 print statements and the calculation of "combined_are" needs to be adjusted. So it might not be worth it because I'll probably end up with many if/else statements. )))
-    '''
+    
+    # (((OPTIONAL-TODO: Let user decide if user's input is in m² or km². 
+    # However then the  following 2 print statements and the calculation 
+    # of "combined_are" needs to be adjusted. So it might not be worth 
+    # it because I'll probably end up with many if/else statements. )))
+    
     print("Please decide by how many m² 1", entity,
           "should be represented (e.g. type '1' for 1 m² per", entity, ").")
     square_meter_per_entity = pyip.inputFloat(prompt='>>>', min=1, max=1000000)
