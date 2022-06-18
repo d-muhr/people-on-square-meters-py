@@ -35,10 +35,8 @@ grave how much space would this mean?) )))
 '''
 
 
-'''
-size of countries and other entities in km² for comparison. They represent a great variety
-of sizes on purpose.
-'''
+# Size of countries and other entities in km² for comparison. They
+# represent a great variety of sizes on purpose.
 vatican_city_size = 0.49
 malta_size = 316
 saarland_size = 2571.11
@@ -95,14 +93,17 @@ while True:
     combined_area = entity_amount * square_meter_per_entity / 1000000
     print("This area would be", f"{combined_area:,}", "km² which is...")
 
-    # calculate the amount of times the asked for area fits into the countries
-    # and other entities
+    # calculate the amount of times the asked for area fits into the 
+    # countries and other entities
     '''
-    (((OPTIONAL-TODO: The variables below can probably easier (with less code and less dependencies) be calculated with a class. But I did not know how
-    I can proceed with the list and the dictionary afterwards if I do so.)))
+    (((OPTIONAL-TODO: The variables below can probably easier (with less 
+    code and less dependencies) be calculated with a class. But I did 
+    not know how I can proceed with the list and the dictionary 
+    afterwards if I do so.)))
     '''
     '''
-    TODO: below it should be calculated by deviding it by the variables (so instead of "/0.49" it should be "/vatican_city_size)
+    TODO: below it should be calculated by deviding it by the variables 
+    (so instead of "/0.49" it should be "/vatican_city_size)
     '''
     vatican_city_amount = combined_area / 0.49
     malta_amount = combined_area / 316
@@ -123,8 +124,10 @@ while True:
     earth_surface_amount = combined_area / 510072000
     sun_surface_amount = combined_area / 6090000000000
 
-    '''((( OPTIOINAL-TODO: Ideally the amount_list and the amount_dict below would have its elements the other way round. Then later
-    the numbers would be listed more appropriately, start with the country/entity with the least amounts. I can probably do this
+    '''((( OPTIOINAL-TODO: Ideally the amount_list and the amount_dict 
+    below would have its elements the other way round. Then later
+    the numbers would be listed more appropriately, start with the 
+    country/entity with the least amounts. I can probably do this
     by using the built-in "reversed"-function. )))
     '''
 
@@ -150,11 +153,13 @@ while True:
         sun_surface_amount]
 
     '''
-    ((( OPTIONAL-TODO: It might make more sense to call the dictionary "grammar_dict" but I am not sure. I think I can leave it like this at the moment._1.5.22 )))
+    ((( OPTIONAL-TODO: It might make more sense to call the dictionary 
+    "grammar_dict" but I am not sure. I think I can leave it like 
+    this at the moment._1.5.22 )))
     '''
 
-    # create a dictionary in order to use it for the print statements later to
-    # have the countries etc. written correctly
+    # create a dictionary in order to use it for the print statements 
+    # later to have the countries etc. written correctly
     amount_dict = {
         vatican_city_amount: 'Vatican City',
         malta_amount: 'Malta',
@@ -202,9 +207,10 @@ while True:
                     ".")
                 counter += 1
 
-    '''TODO_Get rid of the follwing  break-statement as soon as the Program is finished.
-    If I get rid of it before the game will often have issues because of an eternal loop
-    which might raise the exit-condition at some point or not'''
+    '''TODO_Get rid of the follwing  break-statement as soon as the 
+    Program is finished. If I get rid of it before the game will often 
+    have issues because of an eternal loop which might raise the 
+    exit-condition at some point or not'''
     # break
 
     # User can make another calculation or quit the program
