@@ -7,9 +7,14 @@ POTENTIAL TODO:
 '''
 
 # Welcome message
-print('''When it comes to large numbers, they are often very hard to imagine.
-For example roughly 8 billion people live on this planet. One way to illustrate this would be by imagining the size of the area it would take to put each of these persons
-on 1 square meter. The size of this area can then be illustrated by comparing it to a certain entity (e.g a country). This is exactly what this program does.''')
+print(
+    "When it comes to large numbers, they are often very hard to imagine.\n",
+    "For example roughly 8 billion people live on this planet.\n",
+    "One way to illustrate this would be by imagining the size of the area it",
+    "would take to put each of these persons on 1 square meter.\n"
+    "The size of this area can then be illustrated by comparing it to a"
+    "certain entity (e.g a country).\n", 
+    "This is exactly what this program does.")
 
 
 '''
