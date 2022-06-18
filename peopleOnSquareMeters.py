@@ -18,13 +18,20 @@ print(
 
 
 '''
-(((OPTIONAL TODO: Let user decide if user wants to see some examples for inpsiration of what can be calcualted with this program. Some examples can be:
-- Roughly 100 billion humans have existed so far (including the ones currentl y allive). If each needs 2 square meters as a grave how much space would this mean?
+(((OPTIONAL TODO: Let user decide if user wants to see some examples for 
+inpsiration of what can be calcualted with this program. Some examples 
+can be:
+- Roughly 100 billion humans have existed so far (including the ones 
+currentl y allive). If each needs 2 square meters as a grave how much 
+space would this mean?
 
-- Let's say you possess a property of 1000 m². If everyone of the currently roughly 8 billion people had such a property, how large would this area be?
+- Let's say you possess a property of 1000 m². If everyone of the 
+currently roughly 8 billion people had such a property, 
+how large would this area be?
 
 - (In Germany 232 people live per square kilometer)
-- (There are rougly X cows globally. If each needs 10 square meters as a grave how much space would this mean?) )))
+- (There are rougly X cows globally. If each needs 10 square meters as a 
+grave how much space would this mean?) )))
 '''
 
 
