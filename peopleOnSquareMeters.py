@@ -54,7 +54,7 @@ sun_surface_size = 6090000000000
 
 while True:
     # User makes 3 decisions
-    print("Please decide on a entity that you want to be represented (e.g. type 'person').")
+    print("Please decide on an entity that you want to be represented (e.g. type 'person').")
     entity = pyip.inputStr(prompt='>>> ')
 
     print("Please decide how many entities you want to be represented (e.g. type '1000000' for 1 million).")
